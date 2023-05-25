@@ -1,63 +1,6 @@
+{% extends "layout.html" %}
 
-
-<!DOCTYPE html>
-<html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>JOSH SMITH</title>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<style>
-body {
-	top: 0; 
-	left: 0; 
-	width: 99%; 
-	height: 97%;
-    	position: absolute; 
-	display: table; 
-	background-color:#5A5A5A;
-	color:white
-	}
-  p {
-	display: table-cell; 
-	vertical-align: middle; 
-	text-align: center
-	}
-
-
-</style>
-</head>
-
-
-
-
-
-<p>
-<font size="7"><i><b>JOSH SMITH</b></i></font> <br>
-<br>
-<img src="https://i.imgur.com/OQsAqSW.png" style="width:560px;"><br>
-<br>
-<!--<i><a href="//24timezones.com/world_directory/current_nashville_time.php" style="text-decoration: none" class="clock24" id="tz24-1562550567-c1220-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMCIsInNob3dzZWNvbmRzIjoiMSIsInNob3d0aW1lem9uZSI6IjEiLCJ0eXBlIjoiZCIsImxhbmciOiJlbiJ9" title="Nashville Time" target="_blank" rel="nofollow">TIME IN NASHVILLE</a>
-</i><script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
--->
-
-
-<br>
-<br>
-<a href="https://time.is/Nashville" id="time_is_link" rel="nofollow" style="font-size:36px">Time in Nashville:</a>
-<span id="Nashville_z123" style="font-size:36px"></span>
-<script src="//widget.time.is/t.js"></script>
-<script>
-time_is_widget.init({Nashville_z123:{}});
-</script>
-
-<br><br>
-
-<a href="https://jooossshhhh.github.io/website/about.html">about</a> //
-<a href="https://docs.google.com/document/d/11bUnvYgK7ZcujT_rM5Qy3WzWIYtvt80co3Bca0xbKms/edit?usp=sharing">resume</a> //
-<a href="https://jooossshhhh.github.io/website/dreamscape.html">dreamscape</a> //
-<a href="https://jooossshhhh.github.io/website/contact.html">contact</a>
-
-<br>
-<br>
-</body>
-</html>
+{% block content %}
+  <h2>Welcome</h2>
+  <p>Welcome to my personal website. Feel free to explore and learn more about me.</p>
+{% endblock %}

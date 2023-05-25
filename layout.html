@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{pageTitle}}</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      color: #333333;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #333333;
+      font-size: 32px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      color: #333333;
+      font-size: 24px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .profile-image {
+      width: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .navigation {
+      margin-top: 30px;
+    }
+
+    .navigation a {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome</h1>
+    <img src="profile_image.jpg" alt="Profile Picture" class="profile-image">
+  </header>
+
+  <nav class="navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    {{content}}
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Personal Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
