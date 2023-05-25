@@ -20,10 +20,14 @@ a:hover {
 }
 
 .navigation a {
-  display: block;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content:center;
+  margin-bottom: 20px;
 }
-
+.navigation a {
+  display:inline-block;
+  margin:0 10px;
+}
 .matrix-effect {
   position: fixed;
   top: 0;
