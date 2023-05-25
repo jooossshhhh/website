@@ -1,0 +1,55 @@
+
+body {
+  background-color: black;
+  color: #00FF00;
+  font-family: "Courier New", monospace;
+}
+
+h1, h2, h3 {
+  color: #00FF00;
+}
+
+a {
+  color: #00FF00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00FF00;
+  text-decoration: underline;
+}
+
+.navigation a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.matrix-effect {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.matrix-effect span {
+  display: block;
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  width: 100%;
+  height: 1px;
+  background-color: #00FF00;
+  animation: matrix-effect-animation 10s linear infinite;
+}
+
+@keyframes matrix-effect-animation {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
